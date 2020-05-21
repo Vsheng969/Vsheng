@@ -13,9 +13,9 @@ int main(void)
 printf("max=%d",	max(a, b));
 return 0;
 }*/
-
+/*
 int zhishu(int val);
-int main(void)
+int main(void)		
 {
 	do {
 		int I;
@@ -39,4 +39,11 @@ int zhishu(int val)
 			return 1;
 		else
 			return 0;
+}*/
+int main(void) {
+	int* p;
+	int* q;
+	int i=5;
+	p = &i; p = q;
+	printf("%x",q);
 }

@@ -1,6 +1,11 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-int main(void)/*{
+int main(void)
+{int i=3 ,j=5;
+float x=2.5,y=5.0;
+i-=j*=x+y;
+printf("%d %d",i,j);}
+/*{
 	int a;
 	do {
 		puts("请输入您要去的楼层");
